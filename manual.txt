@@ -1,0 +1,39 @@
+        Shell created by asoptere
+        
+Built-in functions:
+
+    cd - change the working directory
+cd [directory name]
+
+    setenv - set a new variable in the enviorement
+setenv VAR=VALUE [[VAR2=VALUE2] ...]
+
+    unsetenv - erase a variable from the enviorement or the enviorement
+unsetenv - erase all enviorement
+unsetenv VAR [[VAR2 ...]
+
+    
+    env - print the enviorement or start a new process with a specific enviorement
+env
+env [enviorement] process [options]
+
+    show - print variables from enviorement
+show VAR [VAR2 ...]
+    
+    echo - print a message in the terminal
+echo [message]
+
+    touch - create a empty file if it doesn't exist
+touch file1 [file2 ...]
+
+    rm - remove a file
+rm file1 [file2 ...]
+
+    mv - move a file or change the name of the file
+mv old_name | old_path new_name | new_path
+
+    mkdir - create a directory
+mkdir directory1 [directory2 ...]
+
+    clear - clear the screen of shell
+clear
